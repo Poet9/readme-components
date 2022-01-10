@@ -25,6 +25,22 @@ ${linearProgressStyles(fill, value)}
     </div>
   </div>
   </div>
+    <script>
+      const div = document.querySelector('.ProgressBars');
+      const fillBar = target =>{
+      const io = new IntersectionObserver((entries, observer)=>{
+       entries.forEach( entry => {
+        if(entry.isIntersecting){
+          const myDiv = entry.target;
+          myDiv.classList.add('fade');
+          observer.disconnect();
+          }
+         });
+      });
+      io.observe(target);
+     };
+     fillBar(div):
+    </script>
   </foreignObject>
 </svg>
     `;
