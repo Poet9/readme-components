@@ -32,7 +32,7 @@ ${linearProgressStyles(fill, value)}
        entries.forEach( entry => {
         if(entry.isIntersecting){
           const myDiv = entry.target;
-          myDiv.classList.add('fade');
+          myDiv.classList.add('fillAnimation');
           observer.disconnect();
           }
          });
