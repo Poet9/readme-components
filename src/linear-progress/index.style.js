@@ -48,10 +48,10 @@ const linearProgressStyles = (fill, value) => {
         z-index: 10;
         border-radius: 12px;
         width: 50%;
-        -moz-animation: width 0.2s linear;
-        -webkit-animation: width 0.2s linear;
       }
       .fillAnimation{
+        -moz-animation: width 0.2s linear;
+        -webkit-animation: width 0.2s linear;
         animation : width 2s;
        }
       @keyframes width {
