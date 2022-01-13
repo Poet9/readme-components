@@ -39,7 +39,7 @@ ${linearProgressStyles(fill, value)}
       });
       io.observe(target);
      };
-     fillBar(div):
+     fillBar(div);
     </script>
   </foreignObject>
 </svg>
